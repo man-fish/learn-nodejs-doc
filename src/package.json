@@ -1,0 +1,29 @@
+{
+    "name": "learn-nodejs-doc",
+    "version": "1.0.0",
+    "description": "raed nodejs document",
+    "main": "main.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "main": "./node_modules/.bin/tsc && node ./build/main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/patrick-prod/learn-nodejs-doc.git"
+    },
+    "keywords": [
+        "nodejs",
+        "typescript"
+    ],
+    "author": "inno",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/patrick-prod/learn-nodejs-doc/issues"
+    },
+    "homepage": "https://github.com/patrick-prod/learn-nodejs-doc#readme",
+    "dependencies": {
+        "@types/lodash": "^4.14.158",
+        "@types/node": "^14.0.27",
+        "lodash": "^4.17.19"
+    }
+}
