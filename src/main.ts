@@ -1,1 +1,1 @@
-console.log(111);
+import "./base/path";
